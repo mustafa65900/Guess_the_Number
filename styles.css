@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box; 
+}
+
+:root{
+    --dark: #9f087a;
+    --background: #f4c8f4;
+}
+
+html{
+    font-size: 70%;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* background-color: #0862a6; */
+    background: url("https://t3.ftcdn.net/jpg/03/50/64/40/360_F_350644095_ZtIo5lqaaBSeIXBxQVvgy9L1lQqcwCUM.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-clip: content-box;
+}
+
+main{
+    width: 38vw;
+    text-align: center;
+    background-color: var(--background);
+    border: solid var(--dark);
+    border-width: 1rem;
+    border-radius: 1rem;
+    padding: 8rem 5rem;
+    color: #1f2933;
+}
+
+h2{
+    font-size: 2.2rem;
+    margin: 2rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+p{
+    font-size: 1.8rem;
+}
+
+img{
+    height: auto;
+    margin: 4rem 0 4rem 0;
+}
+
+.button-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+button{
+    min-width: 28rem;
+    background-image: linear-gradient(
+        92.88deg,
+        #3651b1 9.16%,
+        #2e2470 43.89%,
+        #392576 64.72%
+    );
+    border-radius: 1rem;
+    border-style: none;
+    box-sizing: border-box;
+    color: #bc9cf6;
+    cursor: pointer;
+    padding: 2.5rem 6rem;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all 0.5s;
+    user-select: none;
+    -webkit-user-select: none;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+}
+
+button:hover{
+    box-shadow: rgba(80, 63, 205, 0.2) 0 1px 30px;
+    transition-duration: 0.1s;
+}
+
+#gameArea{
+    /* height: 40vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#newGameButton button{
+    margin: 2rem 0;
+}
+
+input{
+    border: 0.1rem solid lightgray;
+    /* background: transparent; */
+    margin: 4rem 0;
+    padding: 2rem 0;
+    width: 25rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+}
+
+.stats{
+    text-align: left;
+    margin-bottom: 4rem;
+    font-size: 30px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.info span{
+    font-size: 2rem;
+    color: #ff0511;
+}
+
